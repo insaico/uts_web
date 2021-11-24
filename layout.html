@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html>
-	<title>Tugas Layout</title>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>UTS Website</title>
 	<link rel="stylesheet" href="uniga.css">
 </head>
 <body>
-	<div class="wrapper">
-			<nav class="navbar">
-				<img class="logo" src="UNIGA.png">
+	<section class="header">
+			<nav>
+				<a href="layout.html"><img src="UNIGA.png"></a>
+				<div class="nav-link">
 				<ul>
 					<li><a class="active" href="#">Profil</a></li>
 					<li><a href="#">Fakultas</a></li>
 					<li><a href="#">Kegiatan</a></li>
-					<li><a href="#">Pendaftaran</a></li>
 					<li><a href="#">Pengumuman</a></li>
 				</ul>
+				</div>
 			</nav>
-			<div class="center">
-			<h1>Universitas Gajayana</h1>
-			<p align="justify"><font color="white"> Universitas Gajayana (UNIGAMALANG), merupakan salah satu perguruan tinggi swasta di Malang yang didirikan oleh Yayasan Pendidikan Gajayana.
-				UNIGAMALANG terletak di Kota Malang, Kota yang dikenal dengan julukan Kota Pelajar yang nyaman untuk aktivitas belajar mengajar. 
-				Universitas Gajayana memiliki 13 pilihan program studi, yaitu Manajemen, Akuntansi, Ekonomi Pembangunan dan Perbankan, Bahasa Inggris, 
-				Psikologi, Ilmu Komunikasi, Sistem Informasi, Teknik Elektro, Teknik Mesin, Teknik Rekayasa Industri, Fisika, Magister Manajemen dan Magister Akuntansi.</font><p>
-			<br>
-			<p align="justify"><font color="white"> Untuk meningkatkan proses belajar mengajar, kami mendesain kurikulum berbasis kompetensi yang adaptif dengan tuntutan stakeholders. 
-				Sementara itu untuk menjaga mutu lulusan telah dibentuk tim Penjaminan Mutu dan Audit Akademik Internal. 
-				Gedung kuliah yang representatif, perpustakaan dengan koleksi buku yang lengkap terbitan terbaru, laboratorium bahasa Inggris, 
-				laboratorium komputer dan internet hotspot area, serta tersedianya Asrama Mahasiswa,
-				Poliklinik, dan sarana pengembangan bakat/minat mahasiswa, serta pembelajaran E-Learning.</font></p>
-			<br>
-			<p align="justify"><font color="white"> Sampai saat ini, UNIGAMALANG Telah meluluskan ribuan lulusan yang profesional dan kompeten dibidangnya. 
-				Seiring dengan kemajuan dunia pendidikan, maka UNIGAMALANG senantiasa tanggap terhadap perubahan dengan melakukan inovasi proses pembelajaran, 
-				pembaharuan kurikulum, pengembangan sarana dan prasarana pendidikan. Motto Terdepan dan Berkarakter adalah bukti keseriusan UNIGAMALANG untuk membentuk karakter lulusan yang disiplin, 
-				berintegritas, dan mampu menjawab tantangan global.</font></p>	
-		</div>
-	</body>
+				<div class="text-box">
+					<h1>Universitas Gajayana</h1> 
+					<p>Universitas Gajayana (UNIGAMALANG), merupakan salah satu perguruan tinggi swasta di Malang yang didirikan oleh Yayasan Pendidikan Gajayana. 
+						UNIGAMALANG terletak di Kota Malang, Kota yang dikenal dengan julukan Kota Pelajar yang nyaman untuk aktivitas belajar mengajar. 
+						<br>Universitas Gajayana memiliki 13 pilihan program studi, yaitu Manajemen, Akuntansi, Ekonomi Pembangunan dan Perbankan, Bahasa Inggris, Psikologi, Ilmu Komunikasi, Sistem Informasi, Teknik Elektro, Teknik Mesin, Teknik/ Rekayasa Industri, Fisika, Magister Manajemen dan Magister Akuntansi. 
+						<br>Motto Terdepan dan Berkarakter adalah bukti keseriusan UNIGAMALANG untuk membentuk karakter lulusan yang disiplin, berintegritas, dan mampu menjawab tantangan global.</p>
+					<a href="" class="tombol">Profil Kampus</a>
+				</div>
+	</section>
+
+	<section class="fakultas">
+		<h1>Fakultas Universitas Gajayana</h1>
+		<p> Universitas Gajayana memiliki 13 pilihan program studi, yaitu Manajemen, Akuntansi, Ekonomi Pembangunan dan Perbankan, Bahasa Inggris, Psikologi, Ilmu Komunikasi, Sistem Informasi, Teknik Elektro, Teknik Mesin, Teknik/ Rekayasa Industri, Fisika, Magister Manajemen dan Magister Akuntansi.</p>
+		<div class="row">
+			<div class="fakultas-kolom">
+				<img src="si.jpg">
+				<h3>Fakultas Teknik dan Informatika</h3>
+				<p> Mewujudkan fakultas yang unggul dan bermutu dalam pengembangan ilmu pengetahuan dan teknologi dan sumber daya manusia yang kompeten, 
+					profesional dalam bidang Teknik dan Informatika,<br> menjunjung tinggi nilai-nilai moral, beretika, 
+					dan mampu bersaing hingga tingkat nasional.</p>
+			</div>
+			<div class="fakultas-kolom">
+				<img src="akuntansi.jpg">
+				<h3>Fakultas Ekonomi dan Bisnis</h3>
+				<p> Terwujudnya Fakultas Ekonomi yang bermutu dan mampu bersaing di tingkat nasional dalam pengembangan ilmu, pendidikan, 
+					dan pembelajaran berbasis teknologi informasi dengan menjunjung tinggi etika dan moral di bidang ilmu Ekonomi dan Bisnis.</p>
+			</div>
+			<div class="fakultas-kolom">
+				<img src="psikologi.jpg">
+				<h3>Fakultas Ilmu Sosial dan budaya</h3>
+				<p> Program Studi Psikologi diselenggarakan sejak 2003 dan telah terakrediatasi BAN-PT dengan nilai “Baik Sekali”.
+					<br>Pembelajaran ditunjang oleh dosen berkualitas dan didukung oleh dosen berkualifikasi Doktor (S-3) yang tidak saja kompeten secara akademis tetapi juga berpengalaman secara profesional dalam praktek. 
+					<br>Dengan fasilitas lengkap, Fakultas Psikologi Universitas Gajayana terus melakukan pengembangan dan inovasi dalam menjawab segala tantangan pasar kerja dan stakeholder.</p>
+			</div>
+	</section>
+	<section class="pengumuman">
+		<h1>Pengumuman Universitas Gajayana</h1>
+		<p> Universitas Gajayana memiliki 13 pilihan program studi, yaitu Manajemen, Akuntansi, Ekonomi Pembangunan dan Perbankan, Bahasa Inggris, Psikologi, Ilmu Komunikasi, Sistem Informasi, Teknik Elektro, Teknik Mesin, Teknik/ Rekayasa Industri, Fisika, Magister Manajemen dan Magister Akuntansi.</p>
+			<div class="row">
+				<div class="pengumuman-kolom">
+					<h2>Pengumuman Beasiswa</h2>
+					<p> Pemenang OSC S1 2021 akan mendapatkan :
+
+						<br>1.Bebas Uang Pangkal 100%
+						<br>2.Bebas uang semester selama 4 tahun (8 semester) dgn IPK minimal 3.30 setiap semesternya
+						<br>3.Surat Keterangan Pemenang OSC 2021
+					</p>
+					<p>Syarat & Ketentuan lainnya untuk mendapatkan beasiswa S1 hingga lulus :
+					
+					<br>1.Tidak sedang menerima atau dalam proses pengusulan beasiswa pada institusi lain
+					<br>2.Peserta yang mengikuti tes adalah lulusan SMA/K sederajat yang akan lulus pada tahun berjalan atau lulus 2 (dua) tahun sebelumnya
+					<br>3.Biaya – biaya di luar biaya semester (SPP) tetap menjadi tanggungan mahasiswa
+					<br>4.Siap menjaga nama baik almamater Universitas Gajayana
+					<br>5.Surat pernyataan sanggup berkelakuan baik, tidak terlibat Narkoba dan cintta NKRI
+					<br>6.Siap mendukung dan turut berpartisipasi aktif dalam berbagai program pengembangan keilmuan, terlibat aktif dalam kegiatan kemahasiswaan dan wajib membantu kegiatan promosi yang diadakan oleh Universitas Gajayana
+					</p>
+	</section>
+	<section class="footer">
+	<p>Dibuat oleh @Muhammad Arya Ristianto</p>
+	</section>
 </body>
 </html>
